@@ -1,0 +1,131 @@
+-- EMPLOYEES TABLE DATA
+
+INSERT INTO employees (name, department, salary) VALUES
+('Rahul Sharma', 'IT', 55000),
+('Aman Verma', 'HR', 42000),
+('Priya Singh', 'Sales', 48000),
+('Neha Patel', 'Finance', 60000),
+('Arjun Mehta', 'Marketing', 50000),
+('Simran Kaur', 'IT', 58000),
+('Vikas Yadav', 'Sales', 47000),
+('Anjali Gupta', 'HR', 43000),
+('Rohit Jain', 'Finance', 62000),
+('Sneha Nair', 'Marketing', 51000),
+('Karan Malhotra', 'IT', 59000),
+('Pooja Mishra', 'Sales', 45000),
+('Deepak Joshi', 'Finance', 61000),
+('Meera Iyer', 'HR', 44000),
+('Sanjay Roy', 'Marketing', 52000),
+('Aditi Saxena', 'IT', 57000),
+('Nikhil Bansal', 'Sales', 46000),
+('Ritika Das', 'Finance', 63000),
+('Yash Thakur', 'Marketing', 53000),
+('Komal Arora', 'HR', 41000),
+('Abhishek Rao', 'IT', 60000),
+('Tanvi Kapoor', 'Sales', 49000),
+('Harsh Vardhan', 'Finance', 64000),
+('Isha Kulkarni', 'Marketing', 54000),
+('Manoj Tiwari', 'HR', 40000),
+('Kavya Reddy', 'IT', 61000),
+('Siddharth Pal', 'Sales', 47000),
+('Naina Chawla', 'Finance', 65000),
+('Akash Dubey', 'Marketing', 55000),
+('Shreya Sen', 'IT', 62000);
+
+
+
+-- ATTENDANCE TABLE DATA
+
+INSERT INTO attendance 
+(emp_id, attendance_date, status, working_hours)
+VALUES
+
+(1, '2026-05-01', 'Present', 8),
+(1, '2026-05-02', 'Present', 7.5),
+
+(2, '2026-05-01', 'Absent', 0),
+(2, '2026-05-02', 'Present', 8),
+
+(3, '2026-05-01', 'Present', 9),
+(3, '2026-05-02', 'Present', 8.5),
+
+(4, '2026-05-01', 'Present', 7),
+(4, '2026-05-02', 'Absent', 0),
+
+(5, '2026-05-01', 'Present', 8),
+(5, '2026-05-02', 'Present', 8),
+
+(6, '2026-05-01', 'Present', 7.5),
+(6, '2026-05-02', 'Present', 8),
+
+(7, '2026-05-01', 'Absent', 0),
+(7, '2026-05-02', 'Present', 7),
+
+(8, '2026-05-01', 'Present', 8),
+(8, '2026-05-02', 'Present', 8.5),
+
+(9, '2026-05-01', 'Present', 9),
+(9, '2026-05-02', 'Present', 8),
+
+(10, '2026-05-01', 'Absent', 0),
+(10, '2026-05-02', 'Present', 7.5),
+
+(11, '2026-05-01', 'Present', 8),
+(11, '2026-05-02', 'Present', 8),
+
+(12, '2026-05-01', 'Present', 7),
+(12, '2026-05-02', 'Absent', 0),
+
+(13, '2026-05-01', 'Present', 9),
+(13, '2026-05-02', 'Present', 8.5),
+
+(14, '2026-05-01', 'Present', 8),
+(14, '2026-05-02', 'Present', 7.5),
+
+(15, '2026-05-01', 'Absent', 0),
+(15, '2026-05-02', 'Present', 8),
+
+(16, '2026-05-01', 'Present', 8),
+(16, '2026-05-02', 'Present', 9),
+
+(17, '2026-05-01', 'Present', 7.5),
+(17, '2026-05-02', 'Present', 8),
+
+(18, '2026-05-01', 'Present', 9),
+(18, '2026-05-02', 'Absent', 0),
+
+(19, '2026-05-01', 'Present', 8),
+(19, '2026-05-02', 'Present', 8),
+
+(20, '2026-05-01', 'Absent', 0),
+(20, '2026-05-02', 'Present', 7),
+
+(21, '2026-05-01', 'Present', 8.5),
+(21, '2026-05-02', 'Present', 8),
+
+(22, '2026-05-01', 'Present', 7),
+(22, '2026-05-02', 'Present', 8),
+
+(23, '2026-05-01', 'Present', 9),
+(23, '2026-05-02', 'Present', 8.5),
+
+(24, '2026-05-01', 'Absent', 0),
+(24, '2026-05-02', 'Present', 7.5),
+
+(25, '2026-05-01', 'Present', 8),
+(25, '2026-05-02', 'Present', 8),
+
+(26, '2026-05-01', 'Present', 9),
+(26, '2026-05-02', 'Present', 8),
+
+(27, '2026-05-01', 'Absent', 0),
+(27, '2026-05-02', 'Present', 7),
+
+(28, '2026-05-01', 'Present', 8),
+(28, '2026-05-02', 'Present', 8.5),
+
+(29, '2026-05-01', 'Present', 9),
+(29, '2026-05-02', 'Absent', 0),
+
+(30, '2026-05-01', 'Present', 8),
+(30, '2026-05-02', 'Present', 7.5);
