@@ -1,0 +1,15 @@
+CREATE TABLE employees (
+    emp_id SERIAL PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    salary INT
+);
+
+
+CREATE TABLE attendance (
+    attendance_id SERIAL PRIMARY KEY,
+    emp_id INT REFERENCES employees(emp_id),
+    attendance_date DATE,
+    status VARCHAR(10),
+    working_hours NUMERIC(4,2)
+);
